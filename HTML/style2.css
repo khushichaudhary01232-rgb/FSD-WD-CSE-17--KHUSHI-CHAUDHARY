@@ -1,6 +1,9 @@
-image{
-    border:1 px solid #ddd;
-    padding:5px;
+/*img{
+
+    border-radius:50%;
+    width:150px;
+}*/
+img{
     border-radius:8px;
     width:150px;
 }
