@@ -7,3 +7,12 @@ h1{
     font-size:100px;
     font-weight:700;
 }
+h2{
+    background-color: lightgrey;
+    color:green;
+    text-align: left;
+    text-decoration: wavy underline;
+    font-family:verdana,sans-serif;
+    font-size:80px;
+    font-weight:600;
+}
