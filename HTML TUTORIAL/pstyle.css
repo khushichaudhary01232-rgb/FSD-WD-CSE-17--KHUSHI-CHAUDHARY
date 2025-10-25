@@ -16,3 +16,22 @@ h2{
     font-size:80px;
     font-weight:600;
 }
+h3{
+    background-color: lightyellow;
+    color:purple;
+    text-align: right;
+    text-decoration: dotted underline;
+    font-family:arial,sans-serif;
+    font-size:60px;
+    font-weight:500;
+}
+a{
+    text-decoration: none;
+}
+div {
+    background-color: lightpink;
+    height:500px
+    width:700px;
+    border:10px double black ;
+    padding :15px;
+}
