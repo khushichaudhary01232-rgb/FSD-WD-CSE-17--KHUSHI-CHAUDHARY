@@ -30,8 +30,9 @@ a{
 }
 div {
     background-color: lightpink;
-    height:500px
-    width:700px;
+    
     border:10px double black ;
-    padding :15px;
+    padding :15px,20px,30px,5px;
+    border-radius:15px;
+    margin:5px,8px,13px,7px;
 }
