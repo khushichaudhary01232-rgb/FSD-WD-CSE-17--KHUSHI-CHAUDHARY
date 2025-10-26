@@ -36,3 +36,9 @@ div {
     border-radius:15px;
     margin:5px,8px,13px,7px;
 }
+#para2{
+    background-color: seashell;
+    border:10px dashed red;
+    padding :10px,15px,20px,5px;
+    border-radius:10px;
+}
