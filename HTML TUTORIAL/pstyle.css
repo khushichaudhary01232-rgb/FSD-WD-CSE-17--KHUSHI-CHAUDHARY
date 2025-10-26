@@ -96,16 +96,22 @@ button{
     width: 200px;
     border :10px double black;
     background-color: rgba(0, 225, 75, 0.25);
+    display: inline-block;
 }
 .content2{
     height: 100px;
     width: 200px;
     border :10px double black;
     background-color: rgba(255, 0, 0, 0.75);
+    display: inline-block;
 }
 .content3{
     height: 100px;
     width: 200px;
     border :10px double black;
     background-color: rgba(0, 0, 225, 0.5);
+    display: inline-block;
+}
+#content{
+    height: 500px;
 }
