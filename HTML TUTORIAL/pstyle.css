@@ -68,17 +68,25 @@ button{
     display:inline-block ;
     margin:10px;
 }
-#dis2{
+/*#dis2{
     width:100px;
     height:100px;
     background-color: green;
     display:inline-block ;
     margin:10px;
-}
+}*/
 #dis3{
     width:100px;
     height:100px;
     background-color:gray;
     display:inline-block;
     margin:10px;
+}
+#dis2{
+    width:100px;
+    height:100px;
+    background-color: green;
+    /*display:none ;*/
+    margin:10px;
+    visibility: hidden;
 }
