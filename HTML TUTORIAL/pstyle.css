@@ -64,7 +64,7 @@ button{
 #dis{
     width:100px;
     height:100px;
-    background-color: slategray;
+    background-color:rgba(0,0,200,0.5);
     display:inline-block ;
     margin:10px;
 }
@@ -78,7 +78,7 @@ button{
 #dis3{
     width:100px;
     height:100px;
-    background-color:gray;
+    background-color:rgba(255,0,0,0.75);
     display:inline-block;
     margin:10px;
 }
