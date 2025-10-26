@@ -41,7 +41,7 @@ div {
     border:10px dashed red;
     padding :10px,15px,20px,5px;
     border-radius:10px;
-}
+}*/
 #nav{
     background-color: black;
     color :white;
@@ -60,7 +60,8 @@ button{
     background-color: orange;
     color :white;
     border-radius:5px;
-}*/
+}
+/*
 #dis{
     width:100px;
     height:100px;
@@ -74,7 +75,7 @@ button{
     background-color: green;
     display:inline-block ;
     margin:10px;
-}*/
+}
 #dis3{
     width:100px;
     height:100px;
@@ -86,7 +87,12 @@ button{
     width:100px;
     height:100px;
     background-color: green;
-    /*display:none ;*/
+    /*display:none ;
     margin:10px;
     visibility: hidden;
+}*/
+.content{
+    height: 100px;
+    width: 200px;
+    border:10px double black
 }
