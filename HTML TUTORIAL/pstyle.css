@@ -42,3 +42,22 @@ div {
     padding :10px,15px,20px,5px;
     border-radius:10px;
 }
+#nav{
+    background-color: black;
+    color :white;
+    height:60 px ;
+    border:15px solid white;
+
+}
+a{
+    margin:75px;
+}
+#logo{
+    font-size:25px;
+    color :yellow;
+}
+button{
+    background-color: orange;
+    color :white;
+    border-radius:5px;
+}
