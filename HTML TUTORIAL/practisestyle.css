@@ -2,9 +2,12 @@
     width:100px;
     height:200px;
     background-color:black;
+    font-size: 5px;
 }
 #box2{
     width:40%;
     height:100px;
     background-color:yellow;
+    margin-left: 10%;
+    font-size:2em;
 }
