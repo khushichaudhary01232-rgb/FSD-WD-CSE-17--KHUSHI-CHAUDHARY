@@ -1,0 +1,43 @@
+/* div{ 
+    height : 100px ;
+    width : 100 px ;
+    background-image : url("cat.jpg");
+    background-size : cover ;
+    position :fixed;
+    top : 0px ;
+    left :0px ;
+    color : brown;
+}*/
+body{
+    text-align:center;
+}
+div{
+    height: 100px;
+    width:100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container {
+    height: 700px;
+    width: 1000px;
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content:space-around;
+    align-items: center;
+    border: 2px solid black;
+}
+#box1 {
+    background-color: lightcoral;
+}
+#box2 {
+    background-color: lightblue;
+}
+#box3 {
+    background-color: lightgreen;
+}
+#box4 {
+    background-color: lightpink;
+}
+#box5 {
+    background-color: lightgrey;
+}

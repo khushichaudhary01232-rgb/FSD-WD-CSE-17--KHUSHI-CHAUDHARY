@@ -3,9 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="ex5.css">
+    
+    
 </head>
 <body>
+    <script src="validate1.js"></script>
+    <h1>REGISTRATION PAGE</h1>
+
+    <form action="#" method="post" onsubmit="return validateForm()">
+
+        
+        <!-- First Name -->
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <!-- Last Name -->
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Languages Known -->
+        <label>Languages Known:</label><br>
+        <input type="checkbox" id="english" name="language" value="english">
+        <label for="english">English</label>
+
+        <input type="checkbox" id="hindi" name="language" value="hindi">
+        <label for="hindi">Hindi</label>
+
+        <input type="checkbox" id="tamil" name="language" value="tamil">
+        <label for="tamil">Tamil</label>
+
+        <input type="checkbox" id="telugu" name="language" value="telugu">
+        <label for="telugu">Telugu</label>
+        <br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="3" cols="30" required></textarea><br><br>
+        
+        <!--phone number-->
+        <label for="phone">Phone Number:</label><br>
+        <input type="number" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+
+
+    </form>
     
+
 </body>
 </html>
