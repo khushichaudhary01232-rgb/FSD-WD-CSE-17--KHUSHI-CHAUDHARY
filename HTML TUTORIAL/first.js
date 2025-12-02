@@ -107,7 +107,7 @@ arr.forEach((val)=>{
 arr=[1,3,4,5,6,7];
 arr.forEach((val)=>{
     console.log(val*val);
-});*/
+});
 arr=[87,93,64,99,86];
 const marks=arr.filter((val)=>{
     return val>90;
@@ -122,3 +122,53 @@ const sum=arr1.reduce((prev,curr)=>{
     return prev+curr;
 });
 console.log("sum is",sum);
+
+let haeding =document.getElementById("heading");
+console.dir(haeding);
+let elements = document.querySelector("p");
+console.dir(elements);
+let all=document.querySelectorAll("p");
+console.dir(all);
+console.dir(document.body.firstChild);
+let heading = document.querySelector("h2");
+console.dir(heading);
+h2.innerText=h2.innerText+"by khushi chaudhary";
+let divs=document.querySelectorAll(".OK");
+console.dir(divs[0]);
+console.dir(divs[1]);
+console.dir(divs[2]);
+divs[0].innerText="new unique vale first";
+let idx=1;
+for (div of divs){
+    div.innerText=`new unique value ${idx}`;
+    idx++;
+}
+let box = document.querySelector("div");
+console.log(box);
+let value = box.getAttribute("id");
+console.log(value);
+let para1 =document.querySelector("#para");
+console.log(para1);
+para1.getAttribute("#para","newclass");
+
+let el=document.createElement("button");
+el.innerText="clickme";
+console.log(el);
+let fourth=document.querySelector("div");
+fourth.after(el);
+let pa = document.querySelector("p");
+pa.remove();
+let bt = document.createElement("button");
+bt.innerText="clickme";
+bt.stylebackgroundColor="red";
+bt.style.color="white";
+let add = document.querySelector("body");
+add.prepend(bt);
+let para = document.querySelector(".content");
+console.dir(para);
+para.getAttribute("class");
+para.setAttribute("class","newclass");
+let para=document.querySelector("p");
+para.classList.add("newClass");*/
+
+
